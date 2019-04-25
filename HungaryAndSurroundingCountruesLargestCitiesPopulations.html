@@ -1,0 +1,1869 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_0bcf7f9e09a349919dadf154c9125910 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_0bcf7f9e09a349919dadf154c9125910" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_0bcf7f9e09a349919dadf154c9125910 = L.map(
+        'map_0bcf7f9e09a349919dadf154c9125910', {
+        center: [47.4979, 19.0402],
+        zoom: 3,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_6e854bafe796460da781fb64de988456 = L.tileLayer(
+        'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_0bcf7f9e09a349919dadf154c9125910);
+    
+            var feature_group_b96b303020204259a4e3da453ef2928c = L.featureGroup(
+                ).addTo(map_0bcf7f9e09a349919dadf154c9125910);
+        
+    
+
+            var circle_9b6a61242a35450bba6084ed1200022f = L.circle(
+                [47.49972000000008, 19.055080000000032],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 58324,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_c6bf65d43b3241d49b836d38831f6b3e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2e58ea8310924dc490ac46da06c16244 = $(`<div id="html_2e58ea8310924dc490ac46da06c16244" style="width: 100.0%; height: 100.0%;">Budapest (1749734)</div>`)[0];
+                popup_c6bf65d43b3241d49b836d38831f6b3e.setContent(html_2e58ea8310924dc490ac46da06c16244);
+            
+
+            circle_9b6a61242a35450bba6084ed1200022f.bindPopup(popup_c6bf65d43b3241d49b836d38831f6b3e)
+            ;
+
+            
+        
+    
+        circle_9b6a61242a35450bba6084ed1200022f.bindTooltip(
+            `<div>`
+            + `Budapest (1749734)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_8685b27f6c0c4df6b3ff9a9e782b60e8 = L.circle(
+                [47.53439000000003, 21.619080000000054],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6740,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_32d1b56c34b24cada337f49f1262a10d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_131c034a9f484d6c99b888017ddbec0f = $(`<div id="html_131c034a9f484d6c99b888017ddbec0f" style="width: 100.0%; height: 100.0%;">Debrecen (202214)</div>`)[0];
+                popup_32d1b56c34b24cada337f49f1262a10d.setContent(html_131c034a9f484d6c99b888017ddbec0f);
+            
+
+            circle_8685b27f6c0c4df6b3ff9a9e782b60e8.bindPopup(popup_32d1b56c34b24cada337f49f1262a10d)
+            ;
+
+            
+        
+    
+        circle_8685b27f6c0c4df6b3ff9a9e782b60e8.bindTooltip(
+            `<div>`
+            + `Debrecen (202214)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_1877ce35c08f40d3a58303994347a341 = L.circle(
+                [46.25448000000006, 20.148560000000032],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5370,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_b586fc0eb67641bf86433fee0cb73463 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d56b42ed577c4a738e95d07edb936292 = $(`<div id="html_d56b42ed577c4a738e95d07edb936292" style="width: 100.0%; height: 100.0%;">Szeged (161122)</div>`)[0];
+                popup_b586fc0eb67641bf86433fee0cb73463.setContent(html_d56b42ed577c4a738e95d07edb936292);
+            
+
+            circle_1877ce35c08f40d3a58303994347a341.bindPopup(popup_b586fc0eb67641bf86433fee0cb73463)
+            ;
+
+            
+        
+    
+        circle_1877ce35c08f40d3a58303994347a341.bindTooltip(
+            `<div>`
+            + `Szeged (161122)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_ae5e49b460db4b45b714dcb0553a114b = L.circle(
+                [48.10557000000006, 20.790580000000034],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5188,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_3191d2d1a5d24fc5bcc6dec2c4e300e6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_26f1d69fab0c4f5d81184d88329dec99 = $(`<div id="html_26f1d69fab0c4f5d81184d88329dec99" style="width: 100.0%; height: 100.0%;">Miskolc (155650)</div>`)[0];
+                popup_3191d2d1a5d24fc5bcc6dec2c4e300e6.setContent(html_26f1d69fab0c4f5d81184d88329dec99);
+            
+
+            circle_ae5e49b460db4b45b714dcb0553a114b.bindPopup(popup_3191d2d1a5d24fc5bcc6dec2c4e300e6)
+            ;
+
+            
+        
+    
+        circle_ae5e49b460db4b45b714dcb0553a114b.bindTooltip(
+            `<div>`
+            + `Miskolc (155650)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_58d15c58b54b406e9cb711414aba49c0 = L.circle(
+                [46.073090000000036, 18.228750000000048],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4806,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_0b28757e1ed94b6c8b9932077c1f8da2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_966731b2cd294e56bb8425e34a2e15f6 = $(`<div id="html_966731b2cd294e56bb8425e34a2e15f6" style="width: 100.0%; height: 100.0%;">Pécs (144188)</div>`)[0];
+                popup_0b28757e1ed94b6c8b9932077c1f8da2.setContent(html_966731b2cd294e56bb8425e34a2e15f6);
+            
+
+            circle_58d15c58b54b406e9cb711414aba49c0.bindPopup(popup_0b28757e1ed94b6c8b9932077c1f8da2)
+            ;
+
+            
+        
+    
+        circle_58d15c58b54b406e9cb711414aba49c0.bindTooltip(
+            `<div>`
+            + `Pécs (144188)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_df53194b81fe4c359b339f712f3058ff = L.circle(
+                [47.683820000000026, 17.63567000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4336,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_113768d0a3a4449b8eb7c695e265ac2f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9ad12100c4324c3e8982b6daad2dfb87 = $(`<div id="html_9ad12100c4324c3e8982b6daad2dfb87" style="width: 100.0%; height: 100.0%;">Győr (130094)</div>`)[0];
+                popup_113768d0a3a4449b8eb7c695e265ac2f.setContent(html_9ad12100c4324c3e8982b6daad2dfb87);
+            
+
+            circle_df53194b81fe4c359b339f712f3058ff.bindPopup(popup_113768d0a3a4449b8eb7c695e265ac2f)
+            ;
+
+            
+        
+    
+        circle_df53194b81fe4c359b339f712f3058ff.bindTooltip(
+            `<div>`
+            + `Győr (130094)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_35a4c16407164b6b9ec693120991bb23 = L.circle(
+                [47.959280000000035, 21.71831000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3904,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_f0b276eac1b74454a59df2642a695fc0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_207aab2e660d42fd9e7d8023c602e40e = $(`<div id="html_207aab2e660d42fd9e7d8023c602e40e" style="width: 100.0%; height: 100.0%;">Nyíregyháza (117121)</div>`)[0];
+                popup_f0b276eac1b74454a59df2642a695fc0.setContent(html_207aab2e660d42fd9e7d8023c602e40e);
+            
+
+            circle_35a4c16407164b6b9ec693120991bb23.bindPopup(popup_f0b276eac1b74454a59df2642a695fc0)
+            ;
+
+            
+        
+    
+        circle_35a4c16407164b6b9ec693120991bb23.bindTooltip(
+            `<div>`
+            + `Nyíregyháza (117121)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_ece01a1e8d2a420385dbf516845ac80a = L.circle(
+                [46.90545000000003, 19.68772000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3687,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_1069171662cb4efd8a5580e2f9040fbe = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8459d516d82741cca2017d8d7f278ec6 = $(`<div id="html_8459d516d82741cca2017d8d7f278ec6" style="width: 100.0%; height: 100.0%;">Kecskemét (110638)</div>`)[0];
+                popup_1069171662cb4efd8a5580e2f9040fbe.setContent(html_8459d516d82741cca2017d8d7f278ec6);
+            
+
+            circle_ece01a1e8d2a420385dbf516845ac80a.bindPopup(popup_1069171662cb4efd8a5580e2f9040fbe)
+            ;
+
+            
+        
+    
+        circle_ece01a1e8d2a420385dbf516845ac80a.bindTooltip(
+            `<div>`
+            + `Kecskemét (110638)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_344409ee4ea3490387ddbe124b903204 = L.circle(
+                [47.18874000000005, 18.414060000000063],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3246,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_c18dc06ab25b4921a7f72265f336352d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_14c3beb26ab640739d3d7275ced06054 = $(`<div id="html_14c3beb26ab640739d3d7275ced06054" style="width: 100.0%; height: 100.0%;">Székesfehérvár (97382)</div>`)[0];
+                popup_c18dc06ab25b4921a7f72265f336352d.setContent(html_14c3beb26ab640739d3d7275ced06054);
+            
+
+            circle_344409ee4ea3490387ddbe124b903204.bindPopup(popup_c18dc06ab25b4921a7f72265f336352d)
+            ;
+
+            
+        
+    
+        circle_344409ee4ea3490387ddbe124b903204.bindTooltip(
+            `<div>`
+            + `Székesfehérvár (97382)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_fd45112341ff422aa022f39c14708579 = L.circle(
+                [47.22861000000006, 16.61665000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2599,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_00abf1ffe98e462c9dbb300ffd94befa = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e267e7f495884b6eab29423eddb92c44 = $(`<div id="html_e267e7f495884b6eab29423eddb92c44" style="width: 100.0%; height: 100.0%;">Szombathely (77984)</div>`)[0];
+                popup_00abf1ffe98e462c9dbb300ffd94befa.setContent(html_e267e7f495884b6eab29423eddb92c44);
+            
+
+            circle_fd45112341ff422aa022f39c14708579.bindPopup(popup_00abf1ffe98e462c9dbb300ffd94befa)
+            ;
+
+            
+        
+    
+        circle_fd45112341ff422aa022f39c14708579.bindTooltip(
+            `<div>`
+            + `Szombathely (77984)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_cbb99ea6d8be48d78cd5420dd34f5e7a = L.circle(
+                [44.43429000000003, 26.10298000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 62780,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_89b08e1359cf49aebcc245090f0656ee = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_34609949d259441a8731e4c73bcb8f7e = $(`<div id="html_34609949d259441a8731e4c73bcb8f7e" style="width: 100.0%; height: 100.0%;">București (1883425)</div>`)[0];
+                popup_89b08e1359cf49aebcc245090f0656ee.setContent(html_34609949d259441a8731e4c73bcb8f7e);
+            
+
+            circle_cbb99ea6d8be48d78cd5420dd34f5e7a.bindPopup(popup_89b08e1359cf49aebcc245090f0656ee)
+            ;
+
+            
+        
+    
+        circle_cbb99ea6d8be48d78cd5420dd34f5e7a.bindTooltip(
+            `<div>`
+            + `București (1883425)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_e676f0966c234214bfbf1c102297c07e = L.circle(
+                [46.76870000000008, 23.584960000000024],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10819,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_bc578eb3fcb74b8fbc57822199feaec6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b45f2ef9290e44e9ade0e0c62c82d059 = $(`<div id="html_b45f2ef9290e44e9ade0e0c62c82d059" style="width: 100.0%; height: 100.0%;">Cluj-Napoca (324576)</div>`)[0];
+                popup_bc578eb3fcb74b8fbc57822199feaec6.setContent(html_b45f2ef9290e44e9ade0e0c62c82d059);
+            
+
+            circle_e676f0966c234214bfbf1c102297c07e.bindPopup(popup_bc578eb3fcb74b8fbc57822199feaec6)
+            ;
+
+            
+        
+    
+        circle_e676f0966c234214bfbf1c102297c07e.bindTooltip(
+            `<div>`
+            + `Cluj-Napoca (324576)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_d46cc52eb794437e809af5fb35895fdb = L.circle(
+                [45.75342000000006, 21.223330000000033],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10642,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_d62a9216bf1a46e29536840ed99b4162 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ef33e0eeed434a71a4ca687589b31e56 = $(`<div id="html_ef33e0eeed434a71a4ca687589b31e56" style="width: 100.0%; height: 100.0%;">Timișoara (319279)</div>`)[0];
+                popup_d62a9216bf1a46e29536840ed99b4162.setContent(html_ef33e0eeed434a71a4ca687589b31e56);
+            
+
+            circle_d46cc52eb794437e809af5fb35895fdb.bindPopup(popup_d62a9216bf1a46e29536840ed99b4162)
+            ;
+
+            
+        
+    
+        circle_d46cc52eb794437e809af5fb35895fdb.bindTooltip(
+            `<div>`
+            + `Timișoara (319279)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_dafa5031b3fa4478b3a2df1628d9d284 = L.circle(
+                [47.15941000000004, 27.587300000000027],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9680,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_7496a117fa3c482bba144068619cac10 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9e908d6d477542248abfc889b9cb2c84 = $(`<div id="html_9e908d6d477542248abfc889b9cb2c84" style="width: 100.0%; height: 100.0%;">Iași (290422)</div>`)[0];
+                popup_7496a117fa3c482bba144068619cac10.setContent(html_9e908d6d477542248abfc889b9cb2c84);
+            
+
+            circle_dafa5031b3fa4478b3a2df1628d9d284.bindPopup(popup_7496a117fa3c482bba144068619cac10)
+            ;
+
+            
+        
+    
+        circle_dafa5031b3fa4478b3a2df1628d9d284.bindTooltip(
+            `<div>`
+            + `Iași (290422)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_5574c640d8584af3b60754036f8a7f3c = L.circle(
+                [44.17826000000008, 28.651080000000036],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9462,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_4d5400940a854a14bb99e84efd2c3c6a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5cd8669b98ae41198b40639a0d5d7051 = $(`<div id="html_5cd8669b98ae41198b40639a0d5d7051" style="width: 100.0%; height: 100.0%;">Constanța (283872)</div>`)[0];
+                popup_4d5400940a854a14bb99e84efd2c3c6a.setContent(html_5cd8669b98ae41198b40639a0d5d7051);
+            
+
+            circle_5574c640d8584af3b60754036f8a7f3c.bindPopup(popup_4d5400940a854a14bb99e84efd2c3c6a)
+            ;
+
+            
+        
+    
+        circle_5574c640d8584af3b60754036f8a7f3c.bindTooltip(
+            `<div>`
+            + `Constanța (283872)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_b58a89bf5ae549fd809a398c3c9df2f4 = L.circle(
+                [44.320190000000025, 23.798960000000022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8983,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_cf2f41dbc3fa42df89c5b1625642be26 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_97ae374baa244bcd9050575574b7b491 = $(`<div id="html_97ae374baa244bcd9050575574b7b491" style="width: 100.0%; height: 100.0%;">Craiova (269506)</div>`)[0];
+                popup_cf2f41dbc3fa42df89c5b1625642be26.setContent(html_97ae374baa244bcd9050575574b7b491);
+            
+
+            circle_b58a89bf5ae549fd809a398c3c9df2f4.bindPopup(popup_cf2f41dbc3fa42df89c5b1625642be26)
+            ;
+
+            
+        
+    
+        circle_b58a89bf5ae549fd809a398c3c9df2f4.bindTooltip(
+            `<div>`
+            + `Craiova (269506)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_b97cf768b31b471da473bcae21cd6e6b = L.circle(
+                [45.64268000000004, 25.58871000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8440,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_b376aff36e8f40348556a3b42e46fdd1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_33afc458ab5d447b81c1f6d28e815d5f = $(`<div id="html_33afc458ab5d447b81c1f6d28e815d5f" style="width: 100.0%; height: 100.0%;">Brașov (253200)</div>`)[0];
+                popup_b376aff36e8f40348556a3b42e46fdd1.setContent(html_33afc458ab5d447b81c1f6d28e815d5f);
+            
+
+            circle_b97cf768b31b471da473bcae21cd6e6b.bindPopup(popup_b376aff36e8f40348556a3b42e46fdd1)
+            ;
+
+            
+        
+    
+        circle_b97cf768b31b471da473bcae21cd6e6b.bindTooltip(
+            `<div>`
+            + `Brașov (253200)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_eb66816706514463ba6ee71899ae47f9 = L.circle(
+                [44.94071000000008, 26.023280000000057],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6998,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_3d2deac5a9074f4c8c3d9ec80c48e488 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e438350667f34068a86ab17bfb1e4d20 = $(`<div id="html_e438350667f34068a86ab17bfb1e4d20" style="width: 100.0%; height: 100.0%;">Ploiești (209945)</div>`)[0];
+                popup_3d2deac5a9074f4c8c3d9ec80c48e488.setContent(html_e438350667f34068a86ab17bfb1e4d20);
+            
+
+            circle_eb66816706514463ba6ee71899ae47f9.bindPopup(popup_3d2deac5a9074f4c8c3d9ec80c48e488)
+            ;
+
+            
+        
+    
+        circle_eb66816706514463ba6ee71899ae47f9.bindTooltip(
+            `<div>`
+            + `Ploiești (209945)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_921099d7e5654d12a20d32862a6dc23f = L.circle(
+                [47.05184000000003, 21.938730000000078],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6545,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_8b934dc0cf8f4f61ad5165e96613edc2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_522e20fd193b42cd9f0705b4a4a1c939 = $(`<div id="html_522e20fd193b42cd9f0705b4a4a1c939" style="width: 100.0%; height: 100.0%;">Oradea (196367)</div>`)[0];
+                popup_8b934dc0cf8f4f61ad5165e96613edc2.setContent(html_522e20fd193b42cd9f0705b4a4a1c939);
+            
+
+            circle_921099d7e5654d12a20d32862a6dc23f.bindPopup(popup_8b934dc0cf8f4f61ad5165e96613edc2)
+            ;
+
+            
+        
+    
+        circle_921099d7e5654d12a20d32862a6dc23f.bindTooltip(
+            `<div>`
+            + `Oradea (196367)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_3cef29fe3db941ce84ff99f0d9da052f = L.circle(
+                [45.26411000000007, 27.968810000000076],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6010,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_699e966adf0447a5a2ee7af83c11d97a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_67c6639fe29048c0891de734e64a044f = $(`<div id="html_67c6639fe29048c0891de734e64a044f" style="width: 100.0%; height: 100.0%;">Brăila (180302)</div>`)[0];
+                popup_699e966adf0447a5a2ee7af83c11d97a.setContent(html_67c6639fe29048c0891de734e64a044f);
+            
+
+            circle_3cef29fe3db941ce84ff99f0d9da052f.bindPopup(popup_699e966adf0447a5a2ee7af83c11d97a)
+            ;
+
+            
+        
+    
+        circle_3cef29fe3db941ce84ff99f0d9da052f.bindTooltip(
+            `<div>`
+            + `Brăila (180302)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_3b81fc5daad949dda7b62a634ec478fa = L.circle(
+                [46.180660000000046, 21.32209000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5302,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_7d36868a1b87464aa71d4e8a78f99555 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_afb6114842da4b66badf06b7b6a5407f = $(`<div id="html_afb6114842da4b66badf06b7b6a5407f" style="width: 100.0%; height: 100.0%;">Arad (159074)</div>`)[0];
+                popup_7d36868a1b87464aa71d4e8a78f99555.setContent(html_afb6114842da4b66badf06b7b6a5407f);
+            
+
+            circle_3b81fc5daad949dda7b62a634ec478fa.bindPopup(popup_7d36868a1b87464aa71d4e8a78f99555)
+            ;
+
+            
+        
+    
+        circle_3b81fc5daad949dda7b62a634ec478fa.bindTooltip(
+            `<div>`
+            + `Arad (159074)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_a0408e601dc54af59fffd106dd10e8da = L.circle(
+                [44.85000000000008, 24.866670000000056],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5179,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_a489eeabc27f45dbb9af6c4c9eb98106 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0b024911f9e04092b9aefa89ff0cd60c = $(`<div id="html_0b024911f9e04092b9aefa89ff0cd60c" style="width: 100.0%; height: 100.0%;">Pitești (155383)</div>`)[0];
+                popup_a489eeabc27f45dbb9af6c4c9eb98106.setContent(html_0b024911f9e04092b9aefa89ff0cd60c);
+            
+
+            circle_a0408e601dc54af59fffd106dd10e8da.bindPopup(popup_a489eeabc27f45dbb9af6c4c9eb98106)
+            ;
+
+            
+        
+    
+        circle_a0408e601dc54af59fffd106dd10e8da.bindTooltip(
+            `<div>`
+            + `Pitești (155383)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_5854d9d3bce94a0594fab1f952a60de1 = L.circle(
+                [45.79174000000006, 24.14757000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4908,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_308ed393a18d4304a1f5bd0a7d0a38f1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c53c481763fc41c38ef5f6df4d45f18c = $(`<div id="html_c53c481763fc41c38ef5f6df4d45f18c" style="width: 100.0%; height: 100.0%;">Nagyszeben (147245)</div>`)[0];
+                popup_308ed393a18d4304a1f5bd0a7d0a38f1.setContent(html_c53c481763fc41c38ef5f6df4d45f18c);
+            
+
+            circle_5854d9d3bce94a0594fab1f952a60de1.bindPopup(popup_308ed393a18d4304a1f5bd0a7d0a38f1)
+            ;
+
+            
+        
+    
+        circle_5854d9d3bce94a0594fab1f952a60de1.bindTooltip(
+            `<div>`
+            + `Nagyszeben (147245)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_ad9c643c681243789f40b5479e1b7669 = L.circle(
+                [46.569090000000074, 26.91095000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4810,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_d9fd6ff57be0402396362c3b1e11e893 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_89f68579f7aa4e13b81fa7afc23a37b9 = $(`<div id="html_89f68579f7aa4e13b81fa7afc23a37b9" style="width: 100.0%; height: 100.0%;">Bacău (144307)</div>`)[0];
+                popup_d9fd6ff57be0402396362c3b1e11e893.setContent(html_89f68579f7aa4e13b81fa7afc23a37b9);
+            
+
+            circle_ad9c643c681243789f40b5479e1b7669.bindPopup(popup_d9fd6ff57be0402396362c3b1e11e893)
+            ;
+
+            
+        
+    
+        circle_ad9c643c681243789f40b5479e1b7669.bindTooltip(
+            `<div>`
+            + `Bacău (144307)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_fc15eeed2fed48cfad539d4227da5650 = L.circle(
+                [46.54257000000007, 24.55800000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4476,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_e2f5c85169e94cd7995c21bdc403827e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ae04bd0ec2524c40ba28e3f5863ef24b = $(`<div id="html_ae04bd0ec2524c40ba28e3f5863ef24b" style="width: 100.0%; height: 100.0%;">Târgu Mureș (134290)</div>`)[0];
+                popup_e2f5c85169e94cd7995c21bdc403827e.setContent(html_ae04bd0ec2524c40ba28e3f5863ef24b);
+            
+
+            circle_fc15eeed2fed48cfad539d4227da5650.bindPopup(popup_e2f5c85169e94cd7995c21bdc403827e)
+            ;
+
+            
+        
+    
+        circle_fc15eeed2fed48cfad539d4227da5650.bindTooltip(
+            `<div>`
+            + `Târgu Mureș (134290)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_c5bf6315fdea4fd9b29b6ff79adb73dc = L.circle(
+                [47.65706000000006, 23.566050000000075],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4124,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_c2267dfdf73c47728e97daa72341855a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_94814260492743e981515e07e996c2b7 = $(`<div id="html_94814260492743e981515e07e996c2b7" style="width: 100.0%; height: 100.0%;">Baia Mare (123738)</div>`)[0];
+                popup_c2267dfdf73c47728e97daa72341855a.setContent(html_94814260492743e981515e07e996c2b7);
+            
+
+            circle_c5bf6315fdea4fd9b29b6ff79adb73dc.bindPopup(popup_c2267dfdf73c47728e97daa72341855a)
+            ;
+
+            
+        
+    
+        circle_c5bf6315fdea4fd9b29b6ff79adb73dc.bindTooltip(
+            `<div>`
+            + `Baia Mare (123738)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_967b5a166f4a49f2804b25c1ce99f42a = L.circle(
+                [45.15101000000004, 26.817360000000065],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3849,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_deb60d024a47432795f3e19dbc5a9a3b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a48a66d1935b4cb1969da4c15f9ac8f2 = $(`<div id="html_a48a66d1935b4cb1969da4c15f9ac8f2" style="width: 100.0%; height: 100.0%;">Buzău (115494)</div>`)[0];
+                popup_deb60d024a47432795f3e19dbc5a9a3b.setContent(html_a48a66d1935b4cb1969da4c15f9ac8f2);
+            
+
+            circle_967b5a166f4a49f2804b25c1ce99f42a.bindPopup(popup_deb60d024a47432795f3e19dbc5a9a3b)
+            ;
+
+            
+        
+    
+        circle_967b5a166f4a49f2804b25c1ce99f42a.bindTooltip(
+            `<div>`
+            + `Buzău (115494)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_0ebce751a48645f5abd72c3178e51e20 = L.circle(
+                [47.74160000000006, 26.668160000000057],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3561,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_f9a628a3c60645e4a6caa7496b7414c9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c4e6542787c04f0d823317b6a563b927 = $(`<div id="html_c4e6542787c04f0d823317b6a563b927" style="width: 100.0%; height: 100.0%;">Botoșani (106847)</div>`)[0];
+                popup_f9a628a3c60645e4a6caa7496b7414c9.setContent(html_c4e6542787c04f0d823317b6a563b927);
+            
+
+            circle_0ebce751a48645f5abd72c3178e51e20.bindPopup(popup_f9a628a3c60645e4a6caa7496b7414c9)
+            ;
+
+            
+        
+    
+        circle_0ebce751a48645f5abd72c3178e51e20.bindTooltip(
+            `<div>`
+            + `Botoșani (106847)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_33816a6b3f8f4194899dc44f0a260751 = L.circle(
+                [47.79329000000007, 22.87662000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3413,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_f215625c45904231b97c19e831a6a9be = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bdfb29604af343cea0648908028de032 = $(`<div id="html_bdfb29604af343cea0648908028de032" style="width: 100.0%; height: 100.0%;">Satu Mare (102411)</div>`)[0];
+                popup_f215625c45904231b97c19e831a6a9be.setContent(html_bdfb29604af343cea0648908028de032);
+            
+
+            circle_33816a6b3f8f4194899dc44f0a260751.bindPopup(popup_f215625c45904231b97c19e831a6a9be)
+            ;
+
+            
+        
+    
+        circle_33816a6b3f8f4194899dc44f0a260751.bindTooltip(
+            `<div>`
+            + `Satu Mare (102411)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_100b99f28a934d60a6745f8c4826b6b6 = L.circle(
+                [45.105090000000075, 24.372100000000046],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3292,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_44f2d62d14aa4ccd874c34e22ffb6a9d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6a019ac9be8b4d74a31e6ec268a73512 = $(`<div id="html_6a019ac9be8b4d74a31e6ec268a73512" style="width: 100.0%; height: 100.0%;">Râmnicu Vâlcea (98776)</div>`)[0];
+                popup_44f2d62d14aa4ccd874c34e22ffb6a9d.setContent(html_6a019ac9be8b4d74a31e6ec268a73512);
+            
+
+            circle_100b99f28a934d60a6745f8c4826b6b6.bindPopup(popup_44f2d62d14aa4ccd874c34e22ffb6a9d)
+            ;
+
+            
+        
+    
+        circle_100b99f28a934d60a6745f8c4826b6b6.bindTooltip(
+            `<div>`
+            + `Râmnicu Vâlcea (98776)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_9127ba148aef4c32bd85a64a960d92b2 = L.circle(
+                [46.05062000000004, 14.502820000000042],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9343,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_569a5bbecd2b4661bcfb333b7aae3708 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8da7d5fea1c7420c8d161831de68e958 = $(`<div id="html_8da7d5fea1c7420c8d161831de68e958" style="width: 100.0%; height: 100.0%;">Ljubljana (280310)</div>`)[0];
+                popup_569a5bbecd2b4661bcfb333b7aae3708.setContent(html_8da7d5fea1c7420c8d161831de68e958);
+            
+
+            circle_9127ba148aef4c32bd85a64a960d92b2.bindPopup(popup_569a5bbecd2b4661bcfb333b7aae3708)
+            ;
+
+            
+        
+    
+        circle_9127ba148aef4c32bd85a64a960d92b2.bindTooltip(
+            `<div>`
+            + `Ljubljana (280310)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_07b866ab86634ec4aa32a9cd54a7ce98 = L.circle(
+                [46.55878000000007, 15.651130000000023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3162,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_f40ea398ac8f49ca9a58e5807c9fa1a6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_818d82ec56da4f25aae0ca2fc01ae224 = $(`<div id="html_818d82ec56da4f25aae0ca2fc01ae224" style="width: 100.0%; height: 100.0%;">Maribor (94876)</div>`)[0];
+                popup_f40ea398ac8f49ca9a58e5807c9fa1a6.setContent(html_818d82ec56da4f25aae0ca2fc01ae224);
+            
+
+            circle_07b866ab86634ec4aa32a9cd54a7ce98.bindPopup(popup_f40ea398ac8f49ca9a58e5807c9fa1a6)
+            ;
+
+            
+        
+    
+        circle_07b866ab86634ec4aa32a9cd54a7ce98.bindTooltip(
+            `<div>`
+            + `Maribor (94876)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_ad434327653d480d86dea3b3de3e9b8f = L.circle(
+                [46.234680000000026, 15.269570000000044],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1269,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_584784fcf9914810be360ea9286b080e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_84890fd221e4495a8a6e4ea6efe36d1e = $(`<div id="html_84890fd221e4495a8a6e4ea6efe36d1e" style="width: 100.0%; height: 100.0%;">Celje (38079)</div>`)[0];
+                popup_584784fcf9914810be360ea9286b080e.setContent(html_84890fd221e4495a8a6e4ea6efe36d1e);
+            
+
+            circle_ad434327653d480d86dea3b3de3e9b8f.bindPopup(popup_584784fcf9914810be360ea9286b080e)
+            ;
+
+            
+        
+    
+        circle_ad434327653d480d86dea3b3de3e9b8f.bindTooltip(
+            `<div>`
+            + `Celje (38079)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_71bc87bcbf06481db66a7c59b537c793 = L.circle(
+                [46.23512000000005, 14.348690000000033],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1251,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_34ef2b992bf147449fb15317e751d003 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2be3279c1711421bba605e63395e43a8 = $(`<div id="html_2be3279c1711421bba605e63395e43a8" style="width: 100.0%; height: 100.0%;">Kranj (37553)</div>`)[0];
+                popup_34ef2b992bf147449fb15317e751d003.setContent(html_2be3279c1711421bba605e63395e43a8);
+            
+
+            circle_71bc87bcbf06481db66a7c59b537c793.bindPopup(popup_34ef2b992bf147449fb15317e751d003)
+            ;
+
+            
+        
+    
+        circle_71bc87bcbf06481db66a7c59b537c793.bindTooltip(
+            `<div>`
+            + `Kranj (37553)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_c53e5fe3796144cfad0b7f2fc1af70f1 = L.circle(
+                [45.53976000000006, 13.733310000000074],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 843,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_b0590320e5ae44a0918c7405cdcd7567 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f9e262dbb1a145b68bde87dc27109de2 = $(`<div id="html_f9e262dbb1a145b68bde87dc27109de2" style="width: 100.0%; height: 100.0%;">Koper (25319)</div>`)[0];
+                popup_b0590320e5ae44a0918c7405cdcd7567.setContent(html_f9e262dbb1a145b68bde87dc27109de2);
+            
+
+            circle_c53e5fe3796144cfad0b7f2fc1af70f1.bindPopup(popup_b0590320e5ae44a0918c7405cdcd7567)
+            ;
+
+            
+        
+    
+        circle_c53e5fe3796144cfad0b7f2fc1af70f1.bindTooltip(
+            `<div>`
+            + `Koper (25319)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_dc524f2ad30c44479bce8fe86b1c9d13 = L.circle(
+                [46.35785000000004, 15.113840000000039],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 830,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_724bc311e9054020bb2aff827e1848e0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aa6b9228579843f2a16dcfdfeecf79ef = $(`<div id="html_aa6b9228579843f2a16dcfdfeecf79ef" style="width: 100.0%; height: 100.0%;">Velenje (24923)</div>`)[0];
+                popup_724bc311e9054020bb2aff827e1848e0.setContent(html_aa6b9228579843f2a16dcfdfeecf79ef);
+            
+
+            circle_dc524f2ad30c44479bce8fe86b1c9d13.bindPopup(popup_724bc311e9054020bb2aff827e1848e0)
+            ;
+
+            
+        
+    
+        circle_dc524f2ad30c44479bce8fe86b1c9d13.bindTooltip(
+            `<div>`
+            + `Velenje (24923)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_13c15241f0804234908f3e5d12f11c90 = L.circle(
+                [45.802400000000034, 15.170470000000023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 777,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_9a1a98dd253047a2805e3a443a8dff78 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2697c0b4bb9f463fb5ae24d876d98d9b = $(`<div id="html_2697c0b4bb9f463fb5ae24d876d98d9b" style="width: 100.0%; height: 100.0%;">Novo Mesto (23321)</div>`)[0];
+                popup_9a1a98dd253047a2805e3a443a8dff78.setContent(html_2697c0b4bb9f463fb5ae24d876d98d9b);
+            
+
+            circle_13c15241f0804234908f3e5d12f11c90.bindPopup(popup_9a1a98dd253047a2805e3a443a8dff78)
+            ;
+
+            
+        
+    
+        circle_13c15241f0804234908f3e5d12f11c90.bindTooltip(
+            `<div>`
+            + `Novo Mesto (23321)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_990cb386f48a4d00923ff5c786d1c483 = L.circle(
+                [46.42581000000007, 15.87847000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 592,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_883578f309c14b27b72a8f53d66dc9e3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a858c6de07ca4f5dbaa7725f96ae4f5d = $(`<div id="html_a858c6de07ca4f5dbaa7725f96ae4f5d" style="width: 100.0%; height: 100.0%;">Ptuj (17780)</div>`)[0];
+                popup_883578f309c14b27b72a8f53d66dc9e3.setContent(html_a858c6de07ca4f5dbaa7725f96ae4f5d);
+            
+
+            circle_990cb386f48a4d00923ff5c786d1c483.bindPopup(popup_883578f309c14b27b72a8f53d66dc9e3)
+            ;
+
+            
+        
+    
+        circle_990cb386f48a4d00923ff5c786d1c483.bindTooltip(
+            `<div>`
+            + `Ptuj (17780)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_9b89a6e2292442fa9add8a396c16bd11 = L.circle(
+                [46.14090413100007, 15.050024869000026],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 464,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_54ca6483623f40db92ee64e4eaa05ca7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a6d58d6f263a4d82a54c948e677c4d58 = $(`<div id="html_a6d58d6f263a4d82a54c948e677c4d58" style="width: 100.0%; height: 100.0%;">Trbovlje (13932)</div>`)[0];
+                popup_54ca6483623f40db92ee64e4eaa05ca7.setContent(html_a6d58d6f263a4d82a54c948e677c4d58);
+            
+
+            circle_9b89a6e2292442fa9add8a396c16bd11.bindPopup(popup_54ca6483623f40db92ee64e4eaa05ca7)
+            ;
+
+            
+        
+    
+        circle_9b89a6e2292442fa9add8a396c16bd11.bindTooltip(
+            `<div>`
+            + `Trbovlje (13932)` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+
+            var circle_7fbfebe86db7467ea88dba5a45bbd8a4 = L.circle(
+                [46.22210000000007, 14.60713000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "crimson",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "crimson",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 458,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_b96b303020204259a4e3da453ef2928c);
+            
+    
+            var popup_362e3bf083f34b36a05b9f1facbfa5db = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_95eab08c950745098d87da7cf178c5c0 = $(`<div id="html_95eab08c950745098d87da7cf178c5c0" style="width: 100.0%; height: 100.0%;">Kamnik (13768)</div>`)[0];
+                popup_362e3bf083f34b36a05b9f1facbfa5db.setContent(html_95eab08c950745098d87da7cf178c5c0);
+            
+
+            circle_7fbfebe86db7467ea88dba5a45bbd8a4.bindPopup(popup_362e3bf083f34b36a05b9f1facbfa5db)
+            ;
+
+            
+        
+    
+        circle_7fbfebe86db7467ea88dba5a45bbd8a4.bindTooltip(
+            `<div>`
+            + `Kamnik (13768)` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>
