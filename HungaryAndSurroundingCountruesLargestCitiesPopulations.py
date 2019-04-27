@@ -7,19 +7,23 @@ from tqdm import tqdm
 DATADIR = "./data/"
 
 # read csv files containing largest cities populations
+hungary_cities_and_population  = pandas.read_csv(DATADIR + "HungaryLargestCitiesAndPopulation.csv")
 austria_cities_and_population  = pandas.read_csv(DATADIR + "AustriaLargestCitiesAndPopulation.csv")
 croatia_cities_and_population  = pandas.read_csv(DATADIR + "CroatiaLargestCitiesAndPopulation.csv")
-hungary_cities_and_population  = pandas.read_csv(DATADIR + "HungaryLargestCitiesAndPopulation.csv")
 romania_cities_and_population  = pandas.read_csv(DATADIR + "RomaniaLargestCitiesAndPopulation.csv")
+serbia_cities_and_population   = pandas.read_csv(DATADIR + "SerbiaLargestCitiesAndPopulation.csv")
 slovakia_cities_and_population = pandas.read_csv(DATADIR + "SlovakiaLargestCitiesAndPopulation.csv")
 slovenia_cities_and_population = pandas.read_csv(DATADIR + "SloveniaLargestCitiesAndPopulation.csv")
+ukraine_cities_and_population  = pandas.read_csv(DATADIR + "UkraineLargestCitiesAndPopulation.csv")
 cities_and_population = pandas.DataFrame(columns=["City", "Population"])
 cities_and_population = cities_and_population.append(other=austria_cities_and_population,  ignore_index=True)
 cities_and_population = cities_and_population.append(other=croatia_cities_and_population,  ignore_index=True)
 cities_and_population = cities_and_population.append(other=hungary_cities_and_population,  ignore_index=True)
 cities_and_population = cities_and_population.append(other=romania_cities_and_population,  ignore_index=True)
+cities_and_population = cities_and_population.append(other=serbia_cities_and_population,   ignore_index=True)
 cities_and_population = cities_and_population.append(other=slovenia_cities_and_population, ignore_index=True)
 cities_and_population = cities_and_population.append(other=slovakia_cities_and_population, ignore_index=True)
+cities_and_population = cities_and_population.append(other=ukraine_cities_and_population,  ignore_index=True)
 
 # create list of locations by geomapping
 print("Geocoding...")

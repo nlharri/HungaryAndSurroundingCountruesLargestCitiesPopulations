@@ -105,3 +105,6 @@ venv.bak/
 
 # Generated HTML file
 HungaryAndSurroundingCountruesLargestCitiesPopulations.html
+
+# macOS files
+.DS_Store
